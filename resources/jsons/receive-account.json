@@ -1,0 +1,73 @@
+{
+  "payload": {
+    "createdAt": "2025-01-12T12:00:10Z",
+    "updatedAt": "2025-01-12T12:00:10",
+    "key": "e8fea4ae-6a51-43b9-a08e-4c36f563fcb4",
+    "externalId": 104645,
+    "externalOrigin": "MARKETPLACE",
+    "status": "PENDING",
+    "type": "INTERNATIONAL",
+    "ownershipType": "SAME_PERSON",
+    "currencyPayout": "BRL",
+    "defaultReceiveAccount": true,
+    "refundAccount": false,
+    "deleted": true,
+    "reviewId": 1,
+    "receiveAccountData": [
+      {
+        "updatedAt": "2023-11-30T17:27:55.492-03:00",
+        "externalId": "104645-BRL",
+        "externalOrigin": "MARKETPLACE",
+        "data": {
+          "payeeDocument": "623192970144",
+          "payeeName": "conta x recebimento",
+          "typeBankAccount": "CURRENT_ACCOUNT",
+          "entityType": "INDIVIDUAL_ENTITY",
+          "agencyNumber": "5535",
+          "accountNumber": "60166",
+          "accountDigit": "9"
+        },
+        "bank": {
+          "id": 86
+        }
+      }
+    ],
+    "receiveAccountFiles": [
+      {
+        "file": {
+          "externalId": "033b8258-0f89-4ec9-ab14-b4336df8b67e",
+          "externalOrigin": "VAULT-RECEIVE_ACCOUNT-",
+          "createdAt": "2024-01-12T12:00:10Z",
+          "updatedAt": "2024-01-12T12:00:10Z",
+          "name": "Captura de Tela 2023-12-20 às 16.32.57.png",
+          "bucket": "staging-hotmart",
+          "path": "/documents/033b8258-0f89-4ec9-ab14-b4336df8b67e/Captura de Tela 2023-12-20 às 16.32.57.png",
+          "type": "BANK",
+          "contentType": "image/png",
+          "size": 120794,
+          "publicFile": false,
+          "status": "UPLOADING"
+        },
+        "side": "BACK"
+      }
+    ]
+  },
+  "attributes": {
+    "operation": {
+      "DataType": "String",
+      "StringValue": "UPDATE"
+    },
+    "userExternalOrigin": {
+      "DataType": "String",
+      "StringValue": "MARKETPLACE"
+    },
+    "table": {
+      "DataType": "String",
+      "StringValue": "RECEIVE_ACCOUNT"
+    },
+    "userExternalId": {
+      "DataType": "String",
+      "StringValue": "220187"
+    }
+  }
+}

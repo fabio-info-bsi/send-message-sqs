@@ -1,0 +1,95 @@
+{
+  "payload": {
+    "addresses": [
+      {
+        "country": {
+          "id": 1
+        },
+        "createdAt": "2024-01-04T10:53:50Z",
+        "externalId": "5987427",
+        "externalOrigin": "MARKETPLACE",
+        "type": "TAX"
+      }
+    ],
+    "contactEmail": [
+      {
+        "checked": false,
+        "createdAt": "2023-01-04T10:53:50Z",
+        "externalId": "220187",
+        "externalOrigin": "MARKETPLACE",
+        "type": "PRINCIPAL",
+        "value": "vulcando+jivpulcano@hotmart.com.b"
+      }
+    ],
+    "contactPhone": [
+      {
+        "areaCode": "19",
+        "checked": false,
+        "country": {
+          "id": 1
+        },
+        "createdAt": "2024-01-04T10:53:50Z",
+        "externalId": "220187-PERSONAL",
+        "externalOrigin": "MARKETPLACE",
+        "type": "PERSONAL",
+        "value": "93486906"
+      },
+      {
+        "areaCode": "31",
+        "checked": false,
+        "country": {
+          "id": 1
+        },
+        "createdAt": "2024-01-04T10:53:50Z",
+        "externalId": "220187-CELL",
+        "externalOrigin": "MARKETPLACE",
+        "type": "CELL",
+        "value": "311199999"
+      }
+    ],
+    "createdAt": "2024-01-04T10:53:50Z",
+    "externalId": "5987427",
+    "externalOrigin": "MARKETPLACE",
+    "name": "Aline Test ponto com GG",
+    "personIndividual": null,
+    "personLegal": null,
+    "type": "LEGAL_ENTITY",
+    "userAccount": {
+      "country": {
+        "id": 1
+      },
+      "createdAt": "2024-01-04T10:53:50Z",
+      "externalId": "220187",
+      "externalOrigin": "MARKETPLACE",
+      "preferences": {
+        "createdAt": "2024-01-04T10:53:50Z",
+        "externalId": "220187",
+        "externalOrigin": "MARKETPLACE",
+        "locale": "PT_BR",
+        "timezone": "AMERICA_SAO_PAULO",
+        "webhookToken": "3XANSbolnex2X1u0PnX1bUkx0Uq1Bm220187"
+      },
+      "status": "ACTIVE",
+      "type": "LEGACY",
+      "ucode": "c9e5e3f4-097e-11e4-be45-22000b409f8a"
+    }
+  },
+  "attributes": {
+    "operation": {
+      "DataType": "String",
+      "StringValue": "UPDATE"
+    },
+    "userExternalOrigin": {
+      "DataType": "String",
+      "StringValue": "MARKETPLACE"
+    },
+    "table": {
+      "DataType": "String",
+      "StringValue": "PERSON"
+    },
+    "userExternalId": {
+      "DataType": "String",
+      "StringValue": "5987427"
+    }
+  }
+}

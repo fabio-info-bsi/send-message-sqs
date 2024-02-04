@@ -1,0 +1,67 @@
+{
+  "payload": {
+    "createdAt":"2024-01-01T12:00:00Z",
+    "name":"JOAO SIGNUP",
+    "externalId":"112233",
+    "externalOrigin":"MARKETPLACE",
+    "type":"INDIVIDUAL_ENTITY",
+    "contactEmail":[
+      {
+        "createdAt":"2024-01-01T14:45:00Z",
+        "value":"joao.signup@test.com",
+        "type":"PRINCIPAL",
+        "checked":false,
+        "externalId":"112233",
+        "externalOrigin":"MARKETPLACE"
+      }
+    ],
+    "userAccount":{
+      "createdAt":"2024-01-06T09:45:00Z",
+      "type":"LEGACY",
+      "country":{
+        "id":1
+      },
+      "externalId":"112233",
+      "externalOrigin":"MARKETPLACE",
+      "ucode":"123e4567-e89b-12d3-a456-426614174001",
+      "status":"ACTIVE",
+      "preferences":{
+        "locale":"pt_BR",
+        "webhookToken":"3XANSbolnex2X1u0PnX1bUkx0Uq1Bm112233",
+        "timezone":"America/Sao_Paulo",
+        "externalId":"112233",
+        "externalOrigin":"MARKETPLACE",
+        "createdAt":"2024-01-06T09:45:00Z"
+      }
+    },
+    "addresses":[
+      {
+        "type":"TAX",
+        "externalId":7777,
+        "externalOrigin":"MARKETPLACE",
+        "country":{
+          "id":1
+        },
+        "createdAt":"2024-01-06T09:45:00Z"
+      }
+    ]
+  },
+  "attributes": {
+    "operation": {
+      "DataType": "String",
+      "StringValue": "INSERT"
+    },
+    "userExternalOrigin": {
+      "DataType": "String",
+      "StringValue": "MARKETPLACE"
+    },
+    "table": {
+      "DataType": "String",
+      "StringValue": "PERSON"
+    },
+    "userExternalId": {
+      "DataType": "String",
+      "StringValue": "112233"
+    }
+  }
+}

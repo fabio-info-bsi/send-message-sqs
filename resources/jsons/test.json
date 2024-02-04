@@ -1,0 +1,94 @@
+{
+  "payload": {
+    "addresses": [
+      {
+        "country": {
+          "id": 1
+        },
+        "createdAt": "2024-01-24T19:00:15",
+        "externalId": "8286506",
+        "externalOrigin": "MARKETPLACE",
+        "type": "TAX"
+      }
+    ],
+    "contactEmail": [
+      {
+        "checked": false,
+        "createdAt": "2024-01-24T19:00:15",
+        "externalId": "13739400",
+        "externalOrigin": "MARKETPLACE",
+        "type": "PRINCIPAL",
+        "value": "e2e.hotpay.tests2911960@hotmart.com"
+      }
+    ],
+    "contactPhone": [
+      {
+        "areaCode": "11",
+        "checked": false,
+        "country": {
+          "id": 1
+        },
+        "createdAt": "2024-01-24T19:00:15",
+        "externalId": "13739400-PERSONAL",
+        "externalOrigin": "MARKETPLACE",
+        "type": "PERSONAL",
+        "value": "999999999"
+      },
+      {
+        "areaCode": "11",
+        "checked": false,
+        "country": {
+          "id": 1
+        },
+        "createdAt": "2024-01-24T19:00:15",
+        "externalId": "13739400-CELL",
+        "externalOrigin": "MARKETPLACE",
+        "type": "CELL",
+        "value": "898989898"
+      }
+    ],
+    "createdAt": "2024-01-24T19:00:15",
+    "externalId": "13739400",
+    "externalOrigin": "MARKETPLACE",
+    "name": "Jane Hotpay Tests ",
+    "personIndividual": null,
+    "personLegal": null,
+    "type": "INDIVIDUAL_ENTITY",
+    "updatedAt": null,
+    "userAccount": {
+      "country": {
+        "id": 1
+      },
+      "createdAt": "2024-01-24T19:00:15",
+      "externalId": "13739400",
+      "externalOrigin": "MARKETPLACE",
+      "preferences": {
+        "createdAt": "2024-01-24T19:00:15",
+        "externalId": "137394001111111111111111111110000000000000011111111",
+        "externalOrigin": "MARKETPLACE",
+        "locale": "PT_BR",
+        "timeone": "AMERICA_SAO_PAULO"
+      },
+      "type": "LEGACY",
+      "ucode": "2e3ec6a3-7667-4d6b-a287-075d3e22f8e0---"
+    }
+  },
+  "attributes": {
+    "operation": {
+      "DataType": "String",
+      "StringValue": "INSERT"
+    },
+    "userExternalOrigin": {
+      "DataType": "String",
+      "StringValue": "MARKETPLACE"
+    },
+    "table": {
+      "DataType": "String",
+      "StringValue": "PERSON"
+    },
+    "userExternalId": {
+      "DataType": "String",
+      "StringValue": "220187"
+    }
+  }
+}
