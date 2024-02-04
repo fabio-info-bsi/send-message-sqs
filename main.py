@@ -18,7 +18,6 @@ if __name__ == "__main__":
     data = open('resources/jsons/test.json')
     data = json.load(data)
 
-    # queue = sqs.get_queue_by_name(QueueName="sqs-data-account-processor-test")
     queue = sqs.get_queue_by_name(QueueName="lambda_data_account_normalizer")
 
     # Late
@@ -29,10 +28,11 @@ if __name__ == "__main__":
             "MessageAttributes": data.get('attributes'),
         }
         for ind in range(10)
-        # for ind, msg in enumerate(["1", "2", "3", "4"])
 
     ]
 
+    # Individual
     # queue.send_messages(Entries=entries)
+    # Late
     queue.send_message(MessageBody=json.dumps(data.get('payload'), default=serialize_datetime),
                        MessageAttributes=data.get('attributes'))
